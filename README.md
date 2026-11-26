@@ -25,11 +25,7 @@ devops/
 │   ├── package.json
 │   ├── tailwind.config.js
 │   └── vite.config.ts
-├── supabase/
-│   └── migrations/           # Schémas et migrations SQL PostgreSQL
-│       └── 00001_initial_schema.sql
 ├── .env                      # Variables d'environnement locales (ignoré par git)
-├── .env.example              # Modèle documenté des variables requises
 ├── .gitignore                # Fichiers et dossiers ignorés
 ├── package.json              # Racine du monorepo npm
 ├── package-lock.json         # Verrouillage des dépendances npm
@@ -54,8 +50,6 @@ npm install
 ```bash
 npm run dev
 ```
-
-L'application web démarre sur **[http://localhost:5173](http://localhost:5173)**.
 
 ---
 
